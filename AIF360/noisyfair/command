@@ -1,0 +1,3 @@
+# server
+nohup python3 eta_adult.py race 10 > adult_race_eta & nohup python3 eta_adult.py sex 10 > adult_sex_eta &
+nohup python3 eta_compas.py race 10 > compas_race_eta & nohup python3 eta_compas.py sex 10 > compas_sex_eta &
